@@ -15,6 +15,6 @@
 #
 
 FROM openjdk:17.0.2
-COPY target/your-app.jar /usr/src/myapp/app.jar
+COPY target/jpetstore.jar /usr/src/myapp/app.jar
 WORKDIR /usr/src/myapp
 CMD ["java", "-jar", "app.jar"]
